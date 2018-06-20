@@ -87,12 +87,5 @@ theorem nat_identity_is_id
     congr_arg nat.succ IH) n
     
 
-
-inductive my_ind : Type
-| one : my_ind
-| two : my_ind
-|three (x:nat) : my_ind
-|four :∀ 
-
-
 end hanoi
+
